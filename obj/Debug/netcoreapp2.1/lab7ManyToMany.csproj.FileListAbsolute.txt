@@ -1,0 +1,11 @@
+E:\cidm3312\lab7ManyToMany\bin\Debug\netcoreapp2.1\lab7ManyToMany.deps.json
+E:\cidm3312\lab7ManyToMany\bin\Debug\netcoreapp2.1\lab7ManyToMany.runtimeconfig.json
+E:\cidm3312\lab7ManyToMany\bin\Debug\netcoreapp2.1\lab7ManyToMany.runtimeconfig.dev.json
+E:\cidm3312\lab7ManyToMany\bin\Debug\netcoreapp2.1\lab7ManyToMany.dll
+E:\cidm3312\lab7ManyToMany\bin\Debug\netcoreapp2.1\lab7ManyToMany.pdb
+E:\cidm3312\lab7ManyToMany\obj\Debug\netcoreapp2.1\lab7ManyToMany.csprojAssemblyReference.cache
+E:\cidm3312\lab7ManyToMany\obj\Debug\netcoreapp2.1\lab7ManyToMany.csproj.CoreCompileInputs.cache
+E:\cidm3312\lab7ManyToMany\obj\Debug\netcoreapp2.1\lab7ManyToMany.AssemblyInfoInputs.cache
+E:\cidm3312\lab7ManyToMany\obj\Debug\netcoreapp2.1\lab7ManyToMany.AssemblyInfo.cs
+E:\cidm3312\lab7ManyToMany\obj\Debug\netcoreapp2.1\lab7ManyToMany.dll
+E:\cidm3312\lab7ManyToMany\obj\Debug\netcoreapp2.1\lab7ManyToMany.pdb
