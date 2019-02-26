@@ -74,11 +74,11 @@ namespace lab7ManyToMany
              using (var db = new AppDbContext())
             {
                 Student student5=new Student { FirstName = "James", LastName = "L", };
-                Course c=new Course {CourseName = "Project Management"};
-                //Course c=db.Courses.Where(u=>u.CourseName=="Project Management").First(); 
+                //Course c=new Course {CourseName = "Project Management"};
+                Course c=db.Courses.Where(u=>u.CourseName=="Project Management").First(); 
                 StudentCourse st=new StudentCourse {Student = student5, Course = c,  StudentGPA=3.0};
-                db.AddRange(c);
-                db.AddRange(st);
+                
+                db.Add(st);
                 db.Add(student5);
                 db.SaveChanges();
             }
