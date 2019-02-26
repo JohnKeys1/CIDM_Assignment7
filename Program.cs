@@ -45,11 +45,11 @@ namespace lab7ManyToMany
 
                 List<StudentCourse> joinTable = new List<StudentCourse>() {
                     new StudentCourse {Student = students[0], Course = courses[0],  StudentGPA=3.0},
-                    new StudentCourse {Student = students[1], Course = courses[0], StudentGPA = 3.1},
+                    new StudentCourse {Student = students[1], Course = courses[0], StudentGPA = 3.8},
                     new StudentCourse {Student =students[2], Course= courses[0], StudentGPA = 3.4},
                     new StudentCourse {Student =students[3], Course = courses[0],StudentGPA = 2.8},
                     new StudentCourse {Student =students[1], Course = courses[1], StudentGPA =3.8},
-                    new StudentCourse {Student = students[3], Course = courses[1], StudentGPA = 2.6},
+                    new StudentCourse {Student = students[3], Course = courses[1], StudentGPA = 2.8},
                 };
 
                 db.AddRange(students);
@@ -75,6 +75,7 @@ namespace lab7ManyToMany
             {
                 Student student5=new Student { FirstName = "James", LastName = "L", };
                 Course c=new Course {CourseName = "Project Management"};
+                //Course c=db.Courses.Where(u=>u.CourseName=="Project Management").First(); 
                 StudentCourse st=new StudentCourse {Student = student5, Course = c,  StudentGPA=3.0};
                 db.AddRange(c);
                 db.AddRange(st);
