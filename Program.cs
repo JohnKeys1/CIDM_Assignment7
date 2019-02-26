@@ -70,29 +70,19 @@ namespace lab7ManyToMany
             db.SaveChanges();
 
             }
-            List();
+           
              using (var db = new AppDbContext())
             {
-                Student student5=new Student { FirstName = "James", LastName = "L" };
-                //Course StudentCourseToUpdate= db.Courses.Include(b => b.StudentCourses).Where(b => b.CourseName== "Project Management").First();
-                //StudentCourseToUpdate.StudentCourses.Add(student5);
+                Student student5=new Student { FirstName = "James", LastName = "L", };
+                Course c=new Course {CourseName = "Project Management"};
+                StudentCourse st=new StudentCourse {Student = student5, Course = c,  StudentGPA=3.0};
+                db.AddRange(c);
+                db.AddRange(st);
                 db.Add(student5);
                 db.SaveChanges();
-                
-
-               
-                
-
             }
             List();
 
         }
     }
 }
-/*
-git init
-git add README.md
-git commit -m "first commit"
-git remote add origin https://github.com/JohnKeys1/CIDM_Assignment7.git
-git push -u origin master
- */
